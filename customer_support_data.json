@@ -1,0 +1,184 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good morning",
+                "Good afternoon",
+                "Hi there",
+                "Hello there",
+                "Hey there",
+                "Greetings"
+            ],
+            "responses": [
+                "Hello! How can I help you today?",
+                "Hi there! What can I assist you with?",
+                "Hey! How can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Thanks, bye",
+                "Exit",
+                "End",
+                "That's all",
+                "That will be all",
+                "That's it",
+                "I'm done",
+                "Finished",
+                "Thank you"
+            ],
+            "responses": [
+                "Goodbye! Have a great day!",
+                "Thanks for chatting. Bye!",
+                "See you soon!",
+                "Your welcome :) "
+            ]
+        },
+        {
+            "tag": "returns",
+            "patterns": [
+                "How do I return an item?",
+                "Return policy",
+                "I want to return",
+                "Can I get a refund?",
+                "How to exchange",
+                "I need to send back",
+                "Can I send this back",
+                "I don't want this anymore",
+                "Return process",
+                "How long do I have to return",
+                "Refund my order",
+                "What is the return process if I receive a damaged or incorrect product? ",
+                "How long does it take to process a refund? ",
+                "Can I exchange my order for a different item?",
+                "Is there any additional charge for replacing a defective product?"
+            ],
+            "responses": [
+                "You can return items within 30 days of purchase. Go to your order history and select 'Return item'.",
+                "Our return policy allows returns within 30 days. Visit the Returns page on our website.",
+                "To start a return, log into your account, find your order, and click 'Return'. You'll receive a prepaid shipping label.",
+                "We sincerely apologize for this issue. Please share images of the product, and we will process a replacement or refund based on our return policy.",
+                "Refunds are typically processed within [time frame, e.g., 5-7 business days]. We will notify you once the refund is issued.",
+                "Yes, exchanges are available based on our policy. Please share the details of the item you wish to exchange, and we will assist you further."
+            ]
+        },
+        {
+            "tag": "order_status",
+            "patterns": [
+                "Where is my order?",
+                "Track my package",
+                "Order status",
+                "When will I receive my order?",
+                "Is my order shipped yet",
+                "Has my order been shipped",
+                "Package tracking",
+                "Delivery status",
+                "When will my items arrive",
+                "Check my order",
+                "Find my order",
+                "Could you provide an update on my order status?",
+                "When can I expect my order to be delivered?",
+                "Is there a way to track my order?",
+                "What is the estimated delivery date for my order?",
+                "My order is delayed. Could you explain the reason for the delay?",
+                "Can I update the delivery address for my order?",
+                "Is it possible to reschedule the delivery date?"
+            ],
+            "responses": [
+                "You can check your order status by logging into your account and going to 'Order History'.",
+                "To track your package, please use the tracking number sent in your shipping confirmation email.",
+                "Your order status can be found in your account under 'Order History'. You should also receive shipping updates via email.",
+                "Certainly! Let me check your order details. Please provide your order number so I can assist you better.",
+                "You can check it in orders details or you can track your order using the tracking link provided in your confirmation email.",
+                "Yes! You can track your order by visiting tracking link sent to you or by entering your order number on our tracking page.",
+                "We sincerely apologize for the delay. Your order has been delayed . We are working to get it delivered as soon as possible.",
+                "If your order has not been dispatched yet, we can update the address. Please share the correct address at your earliest convenience."
+            ]
+        },
+        {
+            "tag": "payment",
+            "patterns": [
+                "What payment methods do you accept?",
+                "Can I pay with PayPal?",
+                "Do you accept credit cards?",
+                "Payment options",
+                "Can I use Apple Pay",
+                "Do you accept debit cards",
+                "Payment methods",
+                "How can I pay",
+                "Do you take bank transfers",
+                "Can I pay upon delivery",
+                "I have made a payment, but my order is not confirmed. What should I do?",
+                "Can I receive an invoice for my order?",
+                "Do you offer Cash on Delivery (COD) as a payment option?",
+                "How can I apply a discount code or coupon to my order?",
+                "I was charged twice for my order. How can I request a refund for the extra charge?",
+                "cash on delivery is available ?"
+            ],
+            "responses": [
+                "We accept Visa, Mastercard, Credit Card , Debit Card , American Express, and PayPal.",
+                "You can pay using credit/debit cards or PayPal.",
+                "Our payment options include all major credit cards, PayPal, and Apple Pay in selected countries.",
+                "We apologize for the inconvenience. Please share your payment details, and we will verify the transaction and confirm your order.",
+                "Certainly! Your invoice is available in your order confirmation email. If you need a separate copy, we can email it to you upon request.",
+                "You can enter your discount code during checkout in the \u2018Promo Code\u2019 section. If you need assistance, please let us know.",
+                "Yes, we do offer Cash on Delivery (COD) in select areas. Please check if your location is eligible during checkout."
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "How do I contact you",
+                "Customer service number",
+                "Email address",
+                "Contact information",
+                "How can I reach you",
+                "Phone number",
+                "Is there a live chat",
+                "Talk to human",
+                "Talk to agent",
+                "Support contact",
+                "How can I get in touch with customer support for assistance?",
+                "I would like to file a complaint regarding my order. What is the procedure?",
+                "Could you provide the contact details for a higher authority or escalation team?"
+            ],
+            "responses": [
+                "You can reach our customer service team via E-mail or call us at our Customer Support Number.",
+                "Our customer service is available via email or phone call from 9 AM to 6 PM ET.",
+                "The best way to reach us is by email. We typically respond within 24 hours.",
+                "You can reach our support team via [email/phone/chat]. We are available from 9AM to 6PM on call to assist you. And, 24/7 via E-mail",
+                "We are sorry for any inconvenience caused. Please Mail us or call on the support center number so that the relevant team can resolve the issue resolution.",
+                "Certainly! If your issue requires further escalation, you may contact our escalation team ."
+            ]
+        },
+        {
+            "tag": "shipping",
+            "patterns": [
+                "Shipping options",
+                "How long does shipping take",
+                "Shipping cost",
+                "Free shipping",
+                "International shipping",
+                "Shipping to my country",
+                "Express delivery",
+                "How fast can I get it",
+                "Ship to multiple addresses",
+                "Delivery time",
+                "Expedited shipping"
+            ],
+            "responses": [
+                "We offer standard shipping (3-5 business days), express shipping (1-2 business days), and international shipping (7-14 business days).",
+                "Standard shipping is free for orders over $50. Express shipping is available for an additional fee based on location.",
+                "Shipping times vary by location. Standard shipping typically takes 3-5 business days within the continental INDIA."
+            ]
+        }
+    ]
+}
